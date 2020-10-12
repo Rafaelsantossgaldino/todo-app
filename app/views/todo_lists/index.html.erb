@@ -1,0 +1,16 @@
+<div class="card-header d-flex justify-content-between">
+  <span>
+    Lista de Tarefas
+  </span>
+  <%= link_to 'Nova Lista de Tarefa', new_todo_list_path, class: 'btn btn-primary btn-sm'%>
+</div>
+
+<ul class='list-group'>
+  <% @todo_lists.each do |todo_list| %>
+      <li class='list-group-item'>
+      <%= link_to todo_list.title, todo_list %>
+      </li>
+  <% end %>
+</ul>
+
+

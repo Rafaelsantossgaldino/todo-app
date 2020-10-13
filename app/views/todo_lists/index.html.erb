@@ -13,12 +13,10 @@
           <div>
             <h6 class='m-0 text-dark'>
               <b><%= todo_list.title %></b>
-              <span class="badge badge-<%= todo_list.badge_color %>"><%= todo_list.status %></
-              span>
+              <span class="badge badge-<%= todo_list.badge_color %>"><%= todo_list.status %></span>
             </h6>
             <p class='text-secondary m-0'><small><%= todo_list.percent_complete %>% Completo 
-            (<%= todo_list.completed_items %>/<%= todo_list.total_items %> Item de Tarefa)</
-            small></p>
+            (<%= todo_list.completed_items %>/<%= todo_list.total_items %> Item de Tarefa)</small></p>
           </div>
         </li>
       <% end %>    

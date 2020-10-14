@@ -5,7 +5,7 @@ ruby '2.6.6'
 
 gem 'bootstrap', '~> 4.5.2'
 gem 'jquery-rails'
-
+gem 'redis'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
 # Use Puma as the app server
